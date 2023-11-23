@@ -137,14 +137,17 @@ pytz = ">=2015.7"
 
 [[package]]
 name = "base58"
-version = "2.0.0"
-description = "Base58 and Base58Check implementation"
+version = "2.1.1"
+description = "Base58 and Base58Check implementation."
 optional = false
 python-versions = ">=3.5"
 files = [
-    {file = "base58-2.0.0-py3-none-any.whl", hash = "sha256:4c7f5687da771b519cf86b3236250e7c3543368c576404c9fe2d992a287666e0"},
-    {file = "base58-2.0.0.tar.gz", hash = "sha256:c83584a8b917dc52dd634307137f2ad2721a9efb4f1de32fc7eaaaf87844177e"},
+    {file = "base58-2.1.1-py3-none-any.whl", hash = "sha256:11a36f4d3ce51dfc1043f3218591ac4eb1ceb172919cebe05b52a5bcc8d245c2"},
+    {file = "base58-2.1.1.tar.gz", hash = "sha256:c5d0cb3f5b6e81e8e35da5754388ddcc6d0d14b6c6a132cb93d69ed580a7278c"},
 ]
+
+[package.extras]
+tests = ["PyHamcrest (>=2.0.2)", "mypy", "pytest (>=4.6)", "pytest-benchmark", "pytest-cov", "pytest-flake8"]
 
 [[package]]
 name = "certifi"
@@ -1111,4 +1114,4 @@ testing = ["func-timeout", "jaraco.itertools"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7"
-content-hash = "9aa4e188b6784b877b997d518147d7deb5118c9424082c752768000ccd170bbf"
+content-hash = "4b8b57205a5ad6ea1dbd36470514078a7966f669fe266ea51091c8e6fe5035b8"
