@@ -112,17 +112,17 @@ speedups = ["Brotli", "aiodns", "cchardet"]
 
 [[package]]
 name = "aioresponses"
-version = "0.6.3"
+version = "0.7.6"
 description = "Mock out requests made by ClientSession from aiohttp package"
 optional = false
 python-versions = "*"
 files = [
-    {file = "aioresponses-0.6.3-py2.py3-none-any.whl", hash = "sha256:6ccc18d766adb0f3c814f674c50e48f73fb291d29a66a60a9fa088c3e8087d8e"},
-    {file = "aioresponses-0.6.3.tar.gz", hash = "sha256:7b636f2148444cf46b19c2a1ae077a6fdfd93f65cde13f6130481f907d2c811b"},
+    {file = "aioresponses-0.7.6-py2.py3-none-any.whl", hash = "sha256:d2c26defbb9b440ea2685ec132e90700907fd10bcca3e85ec2f157219f0d26f7"},
+    {file = "aioresponses-0.7.6.tar.gz", hash = "sha256:f795d9dbda2d61774840e7e32f5366f45752d1adc1b74c9362afd017296c7ee1"},
 ]
 
 [package.dependencies]
-aiohttp = ">=2.0.0,<4.0.0"
+aiohttp = ">=3.3.0,<4.0.0"
 
 [[package]]
 name = "aiosignal"
@@ -1305,3 +1305,4 @@ testing = ["func-timeout", "jaraco.itertools"]
 lock-version = "2.0"
 python-versions = "^3.7"
 content-hash = "37a78cdb65713b11bb4fb6a6acda4788d5dceae286b6848cca2dfbc9a543dcd0"
+
