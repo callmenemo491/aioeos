@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "aioeos_nemo"
+name = "aioeos"
 version = "1.0.2"
 description = "Async library for interacting with EOS.io blockchain"
 authors = ["NEMO"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://ulam.io/"
-repository = "https://github.com/callmenemo491/aioeos"
+repository = "https://github.com/ulamlabs/aioeos"
 documentation = "https://aioeos.readthedocs.io/en/latest/"
 keywords = ["blockchain", "eos", "async", "eosio", "cryptocurrency"]
 
